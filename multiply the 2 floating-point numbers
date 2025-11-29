@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{
+  float a,b,mul;
+  printf("enter a val: ");
+  scanf("%f",&a);
+  printf("enter b val: ");
+  scanf("%f",&b);
+  mul=a*b;
+  printf("mul = %.2f",mul);
+  return 0;
+}
